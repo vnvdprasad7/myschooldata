@@ -1,0 +1,110 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "title": "Select Board",
+      "subText": "Choose your preferred education board."
+    },
+    {
+      "step": 2,
+      "title": "Choose Your Content",
+      "subText": "Tailor your learning experience by selecting how you would like to organize your materials. This will help us suggest the most relevant tracks for your goals."
+    },
+    {
+      "step": 3,
+      "title": "Language Preference",
+      "subText": "This will help us understand your preferences better and recommend more relevant content."
+    },
+    {
+      "step": 4,
+      "title": "Content Migration",
+      "subText": "Review your selections and continue with the migration."
+    }
+  ],
+
+  "boards": [
+    {
+      "id": "cbse",
+      "name": "CBSE",
+      "description": "Central Board of Secondary Education"
+    },
+    {
+      "id": "icse",
+      "name": "ICSE",
+      "description": "Indian Certificate of Secondary Education"
+    },
+    {
+      "id": "tamilnadu",
+      "name": "Tamil Nadu",
+      "description": "State Board Education"
+    },
+    {
+      "id": "karnataka",
+      "name": "Karnataka",
+      "description": "State Board Education"
+    },
+    {
+      "id": "telangana",
+      "name": "Telangana",
+      "description": "State Board Education"
+    },
+    {
+      "id": "andhra",
+      "name": "Andhra Pradesh",
+      "description": "State Board Education"
+    },
+    {
+      "id": "maharashtra",
+      "name": "Maharashtra",
+      "description": "State Board Education"
+    }
+  ],
+
+  "classes": [
+    { "id": "class1", "name": "Class 1" },
+    { "id": "class2", "name": "Class 2" },
+    { "id": "class3", "name": "Class 3" },
+    { "id": "class4", "name": "Class 4" },
+    { "id": "class5", "name": "Class 5" },
+    { "id": "class6", "name": "Class 6" },
+    { "id": "class7", "name": "Class 7" },
+    { "id": "class8", "name": "Class 8" },
+    { "id": "class9", "name": "Class 9" },
+    { "id": "class10", "name": "Class 10" },
+    { "id": "class11", "name": "Class 11" },
+    { "id": "class12", "name": "Class 12" }
+  ],
+
+  "contentTypes": [
+    {
+      "id": "subject",
+      "name": "Subject Wise",
+      "description": "Browse learning materials organized by subjects."
+    },
+    {
+      "id": "chapter",
+      "name": "Chapter Wise",
+      "description": "Access materials structured chapter by chapter."
+    },
+    {
+      "id": "topic",
+      "name": "Topic Wise",
+      "description": "Find content grouped by specific topics."
+    }
+  ],
+
+  "languages": [
+    {
+      "id": "english",
+      "name": "English"
+    },
+    {
+      "id": "telugu",
+      "name": "Telugu"
+    },
+    {
+      "id": "hindi",
+      "name": "Hindi"
+    }
+  ]
+}
