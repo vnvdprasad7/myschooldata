@@ -204,7 +204,7 @@
     },
     {
       "id": "class1",
-      "name": "Class 1",
+      "name": "1",
       "subjects": [
         {
           "id": "eng",
@@ -230,7 +230,7 @@
     },
     {
       "id": "class2",
-      "name": "Class 2",
+      "name": "2",
       "subjects": [
         {
           "id": "eng",
@@ -256,7 +256,7 @@
     },
     {
       "id": "class3",
-      "name": "Class 3",
+      "name": "3",
       "subjects": [
         {
           "id": "eng",
@@ -282,7 +282,7 @@
     },
     {
       "id": "class4",
-      "name": "Class 4",
+      "name": "4",
       "subjects": [
         {
           "id": "eng",
@@ -308,7 +308,7 @@
     },
     {
       "id": "class5",
-      "name": "Class 5",
+      "name": "5",
       "subjects": [
         {
           "id": "eng",
@@ -334,7 +334,7 @@
     },
     {
       "id": "class6",
-      "name": "Class 6",
+      "name": "6",
       "subjects": [
         {
           "id": "eng",
@@ -360,7 +360,7 @@
     },
     {
       "id": "class7",
-      "name": "Class 7",
+      "name": "7",
       "subjects": [
         {
           "id": "eng",
@@ -386,7 +386,7 @@
     },
     {
       "id": "class8",
-      "name": "Class 8",
+      "name": "8",
       "subjects": [
         {
           "id": "eng",
@@ -412,7 +412,7 @@
     },
     {
       "id": "class9",
-      "name": "Class 9",
+      "name": "9",
       "subjects": [
         {
           "id": "eng",
@@ -442,7 +442,7 @@
     },
     {
       "id": "class10",
-      "name": "Class 10",
+      "name": "10",
       "subjects": [
         {
           "id": "eng",
@@ -472,7 +472,7 @@
     },
     {
       "id": "class11",
-      "name": "Class 11",
+      "name": "11",
       "subjects": [
         {
           "id": "eng",
@@ -514,7 +514,7 @@
     },
     {
       "id": "class12",
-      "name": "Class 12",
+      "name": "12",
       "subjects": [
         {
           "id": "eng",
