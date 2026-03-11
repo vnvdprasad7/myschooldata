@@ -23,68 +23,28 @@
   ],
 
  "boards": [
-    {
-      "id": "cbse",
-      "name": "CBSE",
-      "description": "Central Board of Secondary Education"
-    },
-    {
-      "id": "icse",
-      "name": "ICSE",
-      "description": "Indian Certificate of Secondary Education"
-    },
-    {
-      "id": "ib",
-      "name": "IB",
-      "description": "International Baccalaureate"
-    },
-    {
-      "id": "cambridge",
-      "name": "Cambridge",
-      "description": "Cambridge International Education"
-    },
-    {
-      "id": "andhra",
-      "name": "Andhra Pradesh",
-      "description": "State Board Education"
-    },
-    {
-      "id": "telangana",
-      "name": "Telangana",
-      "description": "State Board Education"
-    },
-    {
-      "id": "tamilnadu",
-      "name": "Tamil Nadu",
-      "description": "State Board Education"
-    },
-    {
-      "id": "karnataka",
-      "name": "Karnataka",
-      "description": "State Board Education"
-    },
-    {
-      "id": "maharashtra",
-      "name": "Maharashtra",
-      "description": "State Board Education"
-    },
-    {
-      "id": "kerala",
-      "name": "Kerala",
-      "description": "State Board Education"
-    },
-    {
-      "id": "up",
-      "name": "Uttar Pradesh",
-      "description": "State Board Education"
-    },
-    {
-      "id": "westbengal",
-      "name": "West Bengal",
-      "description": "State Board Education"
-    }
+    { "id": "cbse", "name": "CBSE", "description": "Central Board of Secondary Education" },
+    { "id": "icse", "name": "ICSE", "description": "Indian Certificate of Secondary Education" },
+    { "id": "ib", "name": "IB", "description": "International Baccalaureate" },
+    { "id": "cambridge", "name": "Cambridge", "description": "Cambridge International Education" },
+    { "id": "andhra", "name": "Andhra Pradesh", "description": "State Board Education" },
+    { "id": "telangana", "name": "Telangana", "description": "State Board Education" },
+    { "id": "tamilnadu", "name": "Tamil Nadu", "description": "State Board Education" },
+    { "id": "karnataka", "name": "Karnataka", "description": "State Board Education" },
+    { "id": "maharashtra", "name": "Maharashtra", "description": "State Board Education" },
+    { "id": "kerala", "name": "Kerala", "description": "State Board Education" },
+    { "id": "up", "name": "Uttar Pradesh", "description": "State Board Education" },
+    { "id": "westbengal", "name": "West Bengal", "description": "State Board Education" },
+    { "id": "gujarat", "name": "Gujarat", "description": "State Board Education" },
+    { "id": "rajasthan", "name": "Rajasthan", "description": "State Board Education" },
+    { "id": "madhyapradesh", "name": "Madhya Pradesh", "description": "State Board Education" },
+    { "id": "bihar", "name": "Bihar", "description": "State Board Education" },
+    { "id": "odisha", "name": "Odisha", "description": "State Board Education" },
+    { "id": "punjab", "name": "Punjab", "description": "State Board Education" },
+    { "id": "haryana", "name": "Haryana", "description": "State Board Education" },
+    { "id": "assam", "name": "Assam", "description": "State Board Education" }
   ],
-
+  
   "classes": [
     { "id": "class1", "name": "Class 1" },
     { "id": "class2", "name": "Class 2" },
