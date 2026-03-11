@@ -3,12 +3,12 @@
     {
       "step": 1,
       "title": "Select Board",
-      "subText": "Choose your preferred education board."
+      "subText": "Choose one or more K12 boards you are interested in to customise your learning journey."
     },
     {
       "step": 2,
       "title": "Choose Your Content",
-      "subText": "Tailor your learning experience by selecting how you would like to organize your materials. This will help us suggest the most relevant tracks for your goals."
+      "subText": "Tailor your learning experience by selecting how you'd like to organize your materials. This will help us suggest the most relevant tracks for your goals."
     },
     {
       "step": 3,
@@ -21,45 +21,540 @@
       "subText": "Review your selections and continue with the migration."
     }
   ],
-
- "boards": [
-    { "id": "cbse", "name": "CBSE", "description": "Central Board of Secondary Education" },
-    { "id": "icse", "name": "ICSE", "description": "Indian Certificate of Secondary Education" },
-    { "id": "ib", "name": "IB", "description": "International Baccalaureate" },
-    { "id": "cambridge", "name": "Cambridge", "description": "Cambridge International Education" },
-    { "id": "andhra", "name": "Andhra Pradesh", "description": "State Board Education" },
-    { "id": "telangana", "name": "Telangana", "description": "State Board Education" },
-    { "id": "tamilnadu", "name": "Tamil Nadu", "description": "State Board Education" },
-    { "id": "karnataka", "name": "Karnataka", "description": "State Board Education" },
-    { "id": "maharashtra", "name": "Maharashtra", "description": "State Board Education" },
-    { "id": "kerala", "name": "Kerala", "description": "State Board Education" },
-    { "id": "up", "name": "Uttar Pradesh", "description": "State Board Education" },
-    { "id": "westbengal", "name": "West Bengal", "description": "State Board Education" },
-    { "id": "gujarat", "name": "Gujarat", "description": "State Board Education" },
-    { "id": "rajasthan", "name": "Rajasthan", "description": "State Board Education" },
-    { "id": "madhyapradesh", "name": "Madhya Pradesh", "description": "State Board Education" },
-    { "id": "bihar", "name": "Bihar", "description": "State Board Education" },
-    { "id": "odisha", "name": "Odisha", "description": "State Board Education" },
-    { "id": "punjab", "name": "Punjab", "description": "State Board Education" },
-    { "id": "haryana", "name": "Haryana", "description": "State Board Education" },
-    { "id": "assam", "name": "Assam", "description": "State Board Education" }
+  "boards": [
+    {
+      "id": "cbse",
+      "name": "CBSE",
+      "description": "Central Board of Secondary Education"
+    },
+    {
+      "id": "icse",
+      "name": "ICSE",
+      "description": "Indian Certificate of Secondary Education"
+    },
+    {
+      "id": "ib",
+      "name": "IB",
+      "description": "International Baccalaureate"
+    },
+    {
+      "id": "cambridge",
+      "name": "Cambridge",
+      "description": "Cambridge International Education"
+    },
+    {
+      "id": "andhra",
+      "name": "Andhra Pradesh",
+      "description": "State Board Education"
+    },
+    {
+      "id": "telangana",
+      "name": "Telangana",
+      "description": "State Board Education"
+    },
+    {
+      "id": "tamilnadu",
+      "name": "Tamil Nadu",
+      "description": "State Board Education"
+    },
+    {
+      "id": "karnataka",
+      "name": "Karnataka",
+      "description": "State Board Education"
+    },
+    {
+      "id": "maharashtra",
+      "name": "Maharashtra",
+      "description": "State Board Education"
+    },
+    {
+      "id": "kerala",
+      "name": "Kerala",
+      "description": "State Board Education"
+    },
+    {
+      "id": "up",
+      "name": "Uttar Pradesh",
+      "description": "State Board Education"
+    },
+    {
+      "id": "westbengal",
+      "name": "West Bengal",
+      "description": "State Board Education"
+    },
+    {
+      "id": "gujarat",
+      "name": "Gujarat",
+      "description": "State Board Education"
+    },
+    {
+      "id": "rajasthan",
+      "name": "Rajasthan",
+      "description": "State Board Education"
+    },
+    {
+      "id": "madhyapradesh",
+      "name": "Madhya Pradesh",
+      "description": "State Board Education"
+    },
+    {
+      "id": "bihar",
+      "name": "Bihar",
+      "description": "State Board Education"
+    },
+    {
+      "id": "odisha",
+      "name": "Odisha",
+      "description": "State Board Education"
+    },
+    {
+      "id": "punjab",
+      "name": "Punjab",
+      "description": "State Board Education"
+    },
+    {
+      "id": "haryana",
+      "name": "Haryana",
+      "description": "State Board Education"
+    },
+    {
+      "id": "assam",
+      "name": "Assam",
+      "description": "State Board Education"
+    }
   ],
-  
   "classes": [
-    { "id": "class1", "name": "Class 1" },
-    { "id": "class2", "name": "Class 2" },
-    { "id": "class3", "name": "Class 3" },
-    { "id": "class4", "name": "Class 4" },
-    { "id": "class5", "name": "Class 5" },
-    { "id": "class6", "name": "Class 6" },
-    { "id": "class7", "name": "Class 7" },
-    { "id": "class8", "name": "Class 8" },
-    { "id": "class9", "name": "Class 9" },
-    { "id": "class10", "name": "Class 10" },
-    { "id": "class11", "name": "Class 11" },
-    { "id": "class12", "name": "Class 12" }
+    {
+      "id": "nursery",
+      "name": "Nursery",
+      "subjects": [
+        {
+          "id": "lt",
+          "name": "Language and Literacy"
+        },
+        {
+          "id": "ma",
+          "name": "Mathematics"
+        },
+        {
+          "id": "es",
+          "name": "Environmental Studies (EVS)"
+        },
+        {
+          "id": "ps",
+          "name": "Physical Education and Motor Skills Development"
+        },
+        {
+          "id": "mr",
+          "name": "Music and Rhymes"
+        }
+      ]
+    },
+    {
+      "id": "lkg",
+      "name": "LKG",
+      "subjects": [
+        {
+          "id": "eng",
+          "name": "English"
+        },
+        {
+          "id": "math",
+          "name": "Mathematics"
+        },
+        {
+          "id": "evs",
+          "name": "Environmental Awareness"
+        },
+        {
+          "id": "draw",
+          "name": "Drawing and Coloring"
+        },
+        {
+          "id": "rhymes",
+          "name": "Rhymes and Stories"
+        }
+      ]
+    },
+    {
+      "id": "ukg",
+      "name": "UKG",
+      "subjects": [
+        {
+          "id": "eng",
+          "name": "English"
+        },
+        {
+          "id": "math",
+          "name": "Mathematics"
+        },
+        {
+          "id": "evs",
+          "name": "Environmental Awareness"
+        },
+        {
+          "id": "draw",
+          "name": "Drawing and Coloring"
+        },
+        {
+          "id": "rhymes",
+          "name": "Rhymes and Stories"
+        }
+      ]
+    },
+    {
+      "id": "class1",
+      "name": "Class 1",
+      "subjects": [
+        {
+          "id": "eng",
+          "name": "English"
+        },
+        {
+          "id": "math",
+          "name": "Mathematics"
+        },
+        {
+          "id": "evs",
+          "name": "EVS"
+        },
+        {
+          "id": "gk",
+          "name": "General Knowledge"
+        },
+        {
+          "id": "pe",
+          "name": "Physical Education"
+        }
+      ]
+    },
+    {
+      "id": "class2",
+      "name": "Class 2",
+      "subjects": [
+        {
+          "id": "eng",
+          "name": "English"
+        },
+        {
+          "id": "math",
+          "name": "Mathematics"
+        },
+        {
+          "id": "evs",
+          "name": "EVS"
+        },
+        {
+          "id": "gk",
+          "name": "General Knowledge"
+        },
+        {
+          "id": "pe",
+          "name": "Physical Education"
+        }
+      ]
+    },
+    {
+      "id": "class3",
+      "name": "Class 3",
+      "subjects": [
+        {
+          "id": "eng",
+          "name": "English"
+        },
+        {
+          "id": "math",
+          "name": "Mathematics"
+        },
+        {
+          "id": "evs",
+          "name": "EVS"
+        },
+        {
+          "id": "gk",
+          "name": "General Knowledge"
+        },
+        {
+          "id": "comp",
+          "name": "Computer Science"
+        }
+      ]
+    },
+    {
+      "id": "class4",
+      "name": "Class 4",
+      "subjects": [
+        {
+          "id": "eng",
+          "name": "English"
+        },
+        {
+          "id": "math",
+          "name": "Mathematics"
+        },
+        {
+          "id": "evs",
+          "name": "EVS"
+        },
+        {
+          "id": "gk",
+          "name": "General Knowledge"
+        },
+        {
+          "id": "comp",
+          "name": "Computer Science"
+        }
+      ]
+    },
+    {
+      "id": "class5",
+      "name": "Class 5",
+      "subjects": [
+        {
+          "id": "eng",
+          "name": "English"
+        },
+        {
+          "id": "math",
+          "name": "Mathematics"
+        },
+        {
+          "id": "sci",
+          "name": "Science"
+        },
+        {
+          "id": "soc",
+          "name": "Social Studies"
+        },
+        {
+          "id": "comp",
+          "name": "Computer Science"
+        }
+      ]
+    },
+    {
+      "id": "class6",
+      "name": "Class 6",
+      "subjects": [
+        {
+          "id": "eng",
+          "name": "English"
+        },
+        {
+          "id": "math",
+          "name": "Mathematics"
+        },
+        {
+          "id": "sci",
+          "name": "Science"
+        },
+        {
+          "id": "soc",
+          "name": "Social Studies"
+        },
+        {
+          "id": "comp",
+          "name": "Computer Science"
+        }
+      ]
+    },
+    {
+      "id": "class7",
+      "name": "Class 7",
+      "subjects": [
+        {
+          "id": "eng",
+          "name": "English"
+        },
+        {
+          "id": "math",
+          "name": "Mathematics"
+        },
+        {
+          "id": "sci",
+          "name": "Science"
+        },
+        {
+          "id": "soc",
+          "name": "Social Studies"
+        },
+        {
+          "id": "comp",
+          "name": "Computer Science"
+        }
+      ]
+    },
+    {
+      "id": "class8",
+      "name": "Class 8",
+      "subjects": [
+        {
+          "id": "eng",
+          "name": "English"
+        },
+        {
+          "id": "math",
+          "name": "Mathematics"
+        },
+        {
+          "id": "sci",
+          "name": "Science"
+        },
+        {
+          "id": "soc",
+          "name": "Social Studies"
+        },
+        {
+          "id": "comp",
+          "name": "Computer Science"
+        }
+      ]
+    },
+    {
+      "id": "class9",
+      "name": "Class 9",
+      "subjects": [
+        {
+          "id": "eng",
+          "name": "English"
+        },
+        {
+          "id": "math",
+          "name": "Mathematics"
+        },
+        {
+          "id": "phy",
+          "name": "Physics"
+        },
+        {
+          "id": "chem",
+          "name": "Chemistry"
+        },
+        {
+          "id": "bio",
+          "name": "Biology"
+        },
+        {
+          "id": "soc",
+          "name": "Social Studies"
+        }
+      ]
+    },
+    {
+      "id": "class10",
+      "name": "Class 10",
+      "subjects": [
+        {
+          "id": "eng",
+          "name": "English"
+        },
+        {
+          "id": "math",
+          "name": "Mathematics"
+        },
+        {
+          "id": "phy",
+          "name": "Physics"
+        },
+        {
+          "id": "chem",
+          "name": "Chemistry"
+        },
+        {
+          "id": "bio",
+          "name": "Biology"
+        },
+        {
+          "id": "soc",
+          "name": "Social Studies"
+        }
+      ]
+    },
+    {
+      "id": "class11",
+      "name": "Class 11",
+      "subjects": [
+        {
+          "id": "eng",
+          "name": "English"
+        },
+        {
+          "id": "phy",
+          "name": "Physics"
+        },
+        {
+          "id": "chem",
+          "name": "Chemistry"
+        },
+        {
+          "id": "math",
+          "name": "Mathematics"
+        },
+        {
+          "id": "bio",
+          "name": "Biology"
+        },
+        {
+          "id": "comp",
+          "name": "Computer Science"
+        },
+        {
+          "id": "eco",
+          "name": "Economics"
+        },
+        {
+          "id": "acc",
+          "name": "Accountancy"
+        },
+        {
+          "id": "bus",
+          "name": "Business Studies"
+        }
+      ]
+    },
+    {
+      "id": "class12",
+      "name": "Class 12",
+      "subjects": [
+        {
+          "id": "eng",
+          "name": "English"
+        },
+        {
+          "id": "phy",
+          "name": "Physics"
+        },
+        {
+          "id": "chem",
+          "name": "Chemistry"
+        },
+        {
+          "id": "math",
+          "name": "Mathematics"
+        },
+        {
+          "id": "bio",
+          "name": "Biology"
+        },
+        {
+          "id": "comp",
+          "name": "Computer Science"
+        },
+        {
+          "id": "eco",
+          "name": "Economics"
+        },
+        {
+          "id": "acc",
+          "name": "Accountancy"
+        },
+        {
+          "id": "bus",
+          "name": "Business Studies"
+        }
+      ]
+    }
   ],
-
   "contentTypes": [
     {
       "id": "subject",
@@ -77,7 +572,6 @@
       "description": "Find content grouped by specific topics."
     }
   ],
-
   "languages": [
     {
       "id": "english",
