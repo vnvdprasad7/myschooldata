@@ -22,7 +22,7 @@
     }
   ],
 
-  "boards": [
+ "boards": [
     {
       "id": "cbse",
       "name": "CBSE",
@@ -32,6 +32,26 @@
       "id": "icse",
       "name": "ICSE",
       "description": "Indian Certificate of Secondary Education"
+    },
+    {
+      "id": "ib",
+      "name": "IB",
+      "description": "International Baccalaureate"
+    },
+    {
+      "id": "cambridge",
+      "name": "Cambridge",
+      "description": "Cambridge International Education"
+    },
+    {
+      "id": "andhra",
+      "name": "Andhra Pradesh",
+      "description": "State Board Education"
+    },
+    {
+      "id": "telangana",
+      "name": "Telangana",
+      "description": "State Board Education"
     },
     {
       "id": "tamilnadu",
@@ -44,18 +64,23 @@
       "description": "State Board Education"
     },
     {
-      "id": "telangana",
-      "name": "Telangana",
-      "description": "State Board Education"
-    },
-    {
-      "id": "andhra",
-      "name": "Andhra Pradesh",
-      "description": "State Board Education"
-    },
-    {
       "id": "maharashtra",
       "name": "Maharashtra",
+      "description": "State Board Education"
+    },
+    {
+      "id": "kerala",
+      "name": "Kerala",
+      "description": "State Board Education"
+    },
+    {
+      "id": "up",
+      "name": "Uttar Pradesh",
+      "description": "State Board Education"
+    },
+    {
+      "id": "westbengal",
+      "name": "West Bengal",
       "description": "State Board Education"
     }
   ],
