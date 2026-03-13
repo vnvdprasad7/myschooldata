@@ -571,19 +571,5 @@
       "name": "Topic Wise",
       "description": "Find content grouped by specific topics."
     }
-  ],
-  "languages": [
-    {
-      "id": "english",
-      "name": "English"
-    },
-    {
-      "id": "telugu",
-      "name": "Telugu"
-    },
-    {
-      "id": "hindi",
-      "name": "Hindi"
-    }
   ]
 }
